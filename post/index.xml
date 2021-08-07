@@ -16,5 +16,51 @@
       <description>Cover post example Cover post example</description>
     </item>
     
+    <item>
+      <title>hugoで記事を作る</title>
+      <link>http://localhost:1313/post/create/</link>
+      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
+      
+      <guid>http://localhost:1313/post/create/</guid>
+      <description>&lt;h1 id=&#34;hugoでブログ作成をするための流れのまとめ&#34;&gt;Hugoでブログ作成をするための流れのまとめ。&lt;/h1&gt;
+&lt;p&gt;〜ディレクトリ(ブログのフォルダ)の作成〜&lt;/p&gt;
+&lt;p&gt;①hugoをインストールする。&lt;/p&gt;
+&lt;p&gt;参照:https://takaken.tokyo/dev/hugo/install/hugo-install/&lt;/p&gt;
+&lt;p&gt;【用語解説】HUGO…静的なhtmlを生成する事ができる静的ページジェネレータ。
+HUGOの場合、ローカル環境(個人のコンピューター内に構築された環境)ではHUGOの動的機能を使って動的にサイトを開発し、成果物の出力時に動的要素を全て静的要素（html,css,js,img等）として出力。
+生成された成果物にはサーバサイドの処理を含まないため、サイトの表示速度は高速になり、サーバサイドの処理が無い分セキュリティリスクが減る。&lt;/p&gt;
+&lt;p&gt;静的ページ…いつどこでアクセスしても毎回同じものが表示される、HTMLファイルで作成されたWebページのこと。&lt;/p&gt;
+&lt;p&gt;動的ページ…アクセスしたときの状況に応じて異なる内容が表示されるWebページのこと。ユーザーが書き込むことで内容が増える掲示板サイトやブログ、表示内容がユーザーごとに違うショッピングサイトや会員制サイトなどが動的ページ。&lt;/p&gt;
+&lt;p&gt;②コマンド(ターミナル)を開き、ディレクトリを作成していく。&lt;/p&gt;
+&lt;p&gt;以下コマンド&lt;/p&gt;
+&lt;p&gt;$cd desktop  →デスクトップに移動。&lt;/p&gt;
+&lt;p&gt;$cd hugo new site 【作りたいブログタイトル】　→デスクトップ上にディレクトリが作成される。&lt;/p&gt;
+&lt;p&gt;【コマンド補足】$cd 指定の場所へ移動する。　前の場所に戻りたい時は　$cd ..&lt;/p&gt;
+&lt;p&gt;③テーマを決める　&lt;/p&gt;
+&lt;p&gt;先程の②でディレクトリは作成したが、ブラウザで表示する時のページレイアウトを決めないと、ページが真っ白なままなので自分のブログイメージに沿ったテーマをここで選ぶ。&lt;/p&gt;
+&lt;p&gt;初心者でテーマを自身で作成するというのは相当難しいのでネットからテーマを探し、ディレクトリに落とし込む。&lt;/p&gt;
+&lt;p&gt;ここではwebエンジンにて「hugo theme」等で検索してみる。&lt;/p&gt;
+&lt;p&gt;参照:https://themes.gohugo.io/&lt;/p&gt;
+&lt;p&gt;☆リンク先のページでは右側のTagsに用途毎でタグ付けされているので、今回なら2番めのBlogから選べばいい。&lt;/p&gt;
+&lt;p&gt;④テーマを導入する&lt;/p&gt;
+&lt;p&gt;以下コマンド…コマンドについては上記urlで見つけたテーマのページにも方法が書かれてあるはずなので随時その項目も確認すること。&lt;/p&gt;
+&lt;p&gt;$cd 【作りたいブログタイトル】→上記にて作成したブログのディレクトリに移動する。&lt;/p&gt;
+&lt;p&gt;$cd themes ←そのディレクトリの中にthemesという項目があるはずなので移動する。&lt;/p&gt;
+&lt;p&gt;$git clone 該当url　⇨テーマが組み込まれる。&lt;/p&gt;
+&lt;p&gt;【補足】$git clone…リポジトリ(ファイル等何らかの「保管場所」)のクローンを作る。&lt;/p&gt;
+&lt;p&gt;⑤ブラウザ上で表示させる。&lt;/p&gt;
+&lt;p&gt;このままではブラウザ上では表示されないのでその設定をする。&lt;/p&gt;
+&lt;p&gt;$hugo server -D ←ローカルにて表示させる。&lt;/p&gt;
+&lt;p&gt;〜記事の作成と投稿〜&lt;/p&gt;
+&lt;p&gt;①記事のページを作る。&lt;/p&gt;
+&lt;p&gt;以下コマンド&lt;/p&gt;
+&lt;p&gt;$cd 【作りたいブログタイトル】&lt;/p&gt;
+&lt;p&gt;$cd hugo new post/タイトル.md　←ディレクトリ内にファイルが生成される。&lt;/p&gt;
+&lt;p&gt;②記事の本文の入力&lt;/p&gt;
+&lt;p&gt;content→postとディレクトリを移動する。mdファイルを開き、書き込むことで入力ができる。&lt;/p&gt;
+&lt;p&gt;筆者はAtomにて本稿を入力、作成した。&lt;/p&gt;
+&lt;p&gt;作成後はファイル保存し、ブラウザに反映されれば成功。&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

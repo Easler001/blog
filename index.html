@@ -254,6 +254,70 @@ Create your AMP pages See the relevant sections below for: using a CMS, starting
       
         <article class="entry-single">
   
+    <a href="http://localhost:1313/post/create/" title="hugoで記事を作る">
+      <amp-img alt="hugoで記事を作る"
+        height="244"
+        layout="fixed-height"
+        class="entry-cover"
+        src="/img/cover.jpg">
+      </amp-img>
+    </a>
+  
+  <header class="entry-header">
+    <h3 class="entry-title"><a href="http://localhost:1313/post/create/" title="hugoで記事を作る" class="entry-link">hugoで記事を作る</a></h3>
+  </header>
+
+  <p class="entry-summary">Hugoでブログ作成をするための流れのまとめ。 〜ディレクトリ(ブログのフォルダ)の作成〜
+①hugoをインストールする。
+参照:https://takaken.tokyo/dev/hugo/install/hugo-install/
+【用語解説】HUGO…静的なhtmlを生成する事ができる静的ページジェネレータ。 HUGOの場合、ローカル環境(個人のコンピューター内に構築された環境)ではHUGOの動的機能を使って動的にサイトを開発し、成果物の出力時に動的要素を全て静的要素（html,css,js,img等）として出力。 生成された成果物にはサーバサイドの処理を含まないため、サイトの表示速度は高速になり、サーバサイドの処理が無い分セキュリティリスクが減る。
+静的ページ…いつどこでアクセスしても毎回同じものが表示される、HTMLファイルで作成されたWebページのこと。
+動的ページ…アクセスしたときの状況に応じて異なる内容が表示されるWebページのこと。ユーザーが書き込むことで内容が増える掲示板サイトやブログ、表示内容がユーザーごとに違うショッピングサイトや会員制サイトなどが動的ページ。
+②コマンド(ターミナル)を開き、ディレクトリを作成していく。
+以下コマンド
+$cd desktop →デスクトップに移動。
+$cd hugo new site 【作りたいブログタイトル】　→デスクトップ上にディレクトリが作成される。
+【コマンド補足】$cd 指定の場所へ移動する。　前の場所に戻りたい時は　$cd ..
+③テーマを決める　先程の②でディレクトリは作成したが、ブラウザで表示する時のページレイアウトを決めないと、ページが真っ白なままなので自分のブログイメージに沿ったテーマをここで選ぶ。
+初心者でテーマを自身で作成するというのは相当難しいのでネットからテーマを探し、ディレクトリに落とし込む。
+ここではwebエンジンにて「hugo theme」等で検索してみる。
+参照:https://themes.gohugo.io/
+☆リンク先のページでは右側のTagsに用途毎でタグ付けされているので、今回なら2番めのBlogから選べばいい。
+④テーマを導入する
+以下コマンド…コマンドについては上記urlで見つけたテーマのページにも方法が書かれてあるはずなので随時その項目も確認すること。
+$cd 【作りたいブログタイトル】→上記にて作成したブログのディレクトリに移動する。
+$cd themes ←そのディレクトリの中にthemesという項目があるはずなので移動する。
+$git clone 該当url　⇨テーマが組み込まれる。
+【補足】$git clone…リポジトリ(ファイル等何らかの「保管場所」)のクローンを作る。
+⑤ブラウザ上で表示させる。
+このままではブラウザ上では表示されないのでその設定をする。
+$hugo server -D ←ローカルにて表示させる。
+〜記事の作成と投稿〜
+①記事のページを作る。
+以下コマンド
+$cd 【作りたいブログタイトル】
+$cd hugo new post/タイトル.md　←ディレクトリ内にファイルが生成される。
+②記事の本文の入力
+content→postとディレクトリを移動する。mdファイルを開き、書き込むことで入力ができる。
+筆者はAtomにて本稿を入力、作成した。
+作成後はファイル保存し、ブラウザに反映されれば成功。
+</p>
+  <footer class="entry-footer">
+    <p class="entry-meta"><span class="entry-time">May 28, 2018</span> 1 min read</p>
+    <div class="sharing">
+      <a class="share share-facebook" target="_blank" href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreate%2f" title="Share on Facebook">
+        <svg class="icon" fill="currentColor"><use xlink:href="#icon-facebook" /></svg>
+      </a>
+      <a class="share share-twitter" target="_blank" href="https://twitter.com/intent/tweet/?text=hugo%e3%81%a7%e8%a8%98%e4%ba%8b%e3%82%92%e4%bd%9c%e3%82%8b&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2fcreate%2f" title="Share on Twitter">
+        <svg class="icon share-twitter-icon" fill="currentColor"><use xlink:href="#icon-twitter" /></svg>
+      </a>
+    </div>
+  </footer>
+</article>
+
+      
+        <article class="entry-single">
+  
     <a href="http://localhost:1313/post/cover-example/" title="Cover Post Example">
       <amp-img alt="Cover Post Example"
         height="244"
