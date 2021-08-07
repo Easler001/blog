@@ -2,51 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/tags/amp/</loc>
-    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/amp/</loc>
-    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
-  </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/</loc>
-    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/amp/getting-started/</loc>
-    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/tags/</loc>
-    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/tags/theme/</loc>
-    <lastmod>2018-05-31T07:11:59+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/post/cover-example/</loc>
-    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
+    <lastmod>2021-08-07T14:09:24+07:00</lastmod>
   </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/post/hello/</loc>
-    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
+    <lastmod>2021-08-07T14:09:24+07:00</lastmod>
   </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/post/seo/</loc>
-    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
+    <lastmod>2021-08-07T14:09:24+07:00</lastmod>
   </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/post/create/</loc>
-    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
+    <lastmod>2021-08-07T14:09:24+07:00</lastmod>
   </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/post/js/</loc>
-    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
+    <lastmod>2021-08-07T14:09:24+07:00</lastmod>
   </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/post/</loc>
-    <lastmod>2018-05-28T14:09:24+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/hugo/getting-started/</loc>
-    <lastmod>2018-05-28T13:22:14+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/tags/hugo/</loc>
-    <lastmod>2018-05-28T13:22:14+07:00</lastmod>
-  </url><url>
-    <loc>https://nervous-jepsen-6c5d5f.netlify.app/hugo/</loc>
-    <lastmod>2018-05-28T13:22:14+07:00</lastmod>
+    <lastmod>2021-08-07T14:09:24+07:00</lastmod>
   </url><url>
     <loc>https://nervous-jepsen-6c5d5f.netlify.app/categories/</loc>
+  </url><url>
+    <loc>https://nervous-jepsen-6c5d5f.netlify.app/tags/</loc>
   </url>
 </urlset>

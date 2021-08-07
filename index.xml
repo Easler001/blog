@@ -6,31 +6,11 @@
     <description>Recent content on Easler&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-ja</language>
-    <lastBuildDate>Thu, 31 May 2018 07:11:59 +0700</lastBuildDate><atom:link href="https://nervous-jepsen-6c5d5f.netlify.app/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Getting Started with AMP</title>
-      <link>https://nervous-jepsen-6c5d5f.netlify.app/amp/getting-started/</link>
-      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
-      
-      <guid>https://nervous-jepsen-6c5d5f.netlify.app/amp/getting-started/</guid>
-      <description>Getting started with AMP Implement these key steps to get up and running with AMP:
- Create your AMP pages Validate your AMP pages Make your content discoverable  Using AMP day-to-day Keep your AMP momentum going with all the resources AMP has to offer.
-Create your AMP pages See the relevant sections below for: using a CMS, starting from scratch, or converting existing content</description>
-    </item>
-    
-    <item>
-      <title>Cover Post Example</title>
-      <link>https://nervous-jepsen-6c5d5f.netlify.app/post/cover-example/</link>
-      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
-      
-      <guid>https://nervous-jepsen-6c5d5f.netlify.app/post/cover-example/</guid>
-      <description>Cover post example Cover post example</description>
-    </item>
-    
+    <lastBuildDate>Sat, 07 Aug 2021 14:09:24 +0700</lastBuildDate><atom:link href="https://nervous-jepsen-6c5d5f.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello</title>
       <link>https://nervous-jepsen-6c5d5f.netlify.app/post/hello/</link>
-      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
+      <pubDate>Sat, 07 Aug 2021 14:09:24 +0700</pubDate>
       
       <guid>https://nervous-jepsen-6c5d5f.netlify.app/post/hello/</guid>
       <description></description>
@@ -39,12 +19,13 @@ Create your AMP pages See the relevant sections below for: using a CMS, starting
     <item>
       <title>HTMLとCSSのみでSEOに強い入力フォームを作成する</title>
       <link>https://nervous-jepsen-6c5d5f.netlify.app/post/seo/</link>
-      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
+      <pubDate>Sat, 07 Aug 2021 14:09:24 +0700</pubDate>
       
       <guid>https://nervous-jepsen-6c5d5f.netlify.app/post/seo/</guid>
-      <description>&lt;p&gt;SEOに強い入力フォームは、簡単に言えば検索エンジンのクローラーが理解しやすいようなHTML構造にしなければならない。&lt;/p&gt;
-&lt;p&gt;【用語補足】
-SEO…(Search Engine Optimization：検索エンジン最適化)検索エンジンを利用したマーケティング。Googleなどの検索結果で自社のページが表示されることにより、サービスや商品を知らないユーザーがページを見て利用、購入等を考える機会を作り出す。&lt;/p&gt;
+      <description>&lt;p&gt;#　初めに
+SEOに強い入力フォームは、簡単に言えば検索エンジンのクローラーが理解しやすいようなHTML構造にしなければならない。&lt;/p&gt;
+&lt;h2 id=&#34;用語補足&#34;&gt;【用語補足】&lt;/h2&gt;
+&lt;p&gt;SEO…(Search Engine Optimization：検索エンジン最適化)検索エンジンを利用したマーケティング。Googleなどの検索結果で自社のページが表示されることにより、サービスや商品を知らないユーザーがページを見て利用、購入等を考える機会を作り出す。&lt;/p&gt;
 &lt;p&gt;クローラー…インターネット上に存在するWebサイトや画像などのあらゆる情報を取得し、自動的に検索データベースを作成する巡回プログラム。google等の検索サイトを提供している企業が運営。&lt;/p&gt;
 &lt;p&gt;検索エンジンでは、ほとんどがクローラーを使うことでサイトの評価をしている。要は、クローラーがサイトを巡回する際に、ページのHTML構造を理解しやすく記述しておく必要がある。&lt;/p&gt;</description>
     </item>
@@ -52,7 +33,7 @@ SEO…(Search Engine Optimization：検索エンジン最適化)検索エンジ�
     <item>
       <title>hugoで記事を作る</title>
       <link>https://nervous-jepsen-6c5d5f.netlify.app/post/create/</link>
-      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
+      <pubDate>Sat, 07 Aug 2021 14:09:24 +0700</pubDate>
       
       <guid>https://nervous-jepsen-6c5d5f.netlify.app/post/create/</guid>
       <description>&lt;h1 id=&#34;hugoでブログ作成をするための流れのまとめ&#34;&gt;Hugoでブログ作成をするための流れのまとめ。&lt;/h1&gt;
@@ -98,10 +79,10 @@ HUGOの場合、ローカル環境(個人のコンピューター内に構築さ
     <item>
       <title>Javasplictまとめ</title>
       <link>https://nervous-jepsen-6c5d5f.netlify.app/post/js/</link>
-      <pubDate>Mon, 28 May 2018 14:09:24 +0700</pubDate>
+      <pubDate>Sat, 07 Aug 2021 14:09:24 +0700</pubDate>
       
       <guid>https://nervous-jepsen-6c5d5f.netlify.app/post/js/</guid>
-      <description>&lt;p&gt;コマンド一覧&lt;/p&gt;
+      <description>&lt;h1 id=&#34;コマンド一覧&#34;&gt;コマンド一覧&lt;/h1&gt;
 &lt;p&gt;console.log(&#39;&#39;);…基本のコマンド。コマンドの中身が出力される。文末セミコロン入力漏れ注意！
 中身については&#39;&#39;(クォーテーション)で囲む。基本はシングルクォーテーションを使用。&lt;/p&gt;
 &lt;p&gt;文頭に//を入れるとコメントアウトされる。メモ代わりかな？&lt;/p&gt;
@@ -135,18 +116,6 @@ if(number&amp;gt;10){
 console.log(&amp;lsquo;numberは 10より大きい&amp;rsquo;)};&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;→numberは10より大きい
 &lt;/code&gt;&lt;/pre&gt;</description>
-    </item>
-    
-    <item>
-      <title>Getting Started With Hugo</title>
-      <link>https://nervous-jepsen-6c5d5f.netlify.app/hugo/getting-started/</link>
-      <pubDate>Mon, 28 May 2018 13:22:14 +0700</pubDate>
-      
-      <guid>https://nervous-jepsen-6c5d5f.netlify.app/hugo/getting-started/</guid>
-      <description>Step 1: Install Hugo brew install hugo To verify your new install:
-hugo version Step 2: Create a New Site hugo new site quickstart The above will create a new Hugo site in a folder named quickstart.
-Step 3: Add a Theme See themes.gohugo.io for a list of themes to consider. This quickstart uses the beautiful Ananke theme.
-cd quickstart;\ git init;\ git submodule add https://github.com/budparr/gohugo-theme-ananke.git themes/ananke;\  # Edit your config.</description>
     </item>
     
   </channel>

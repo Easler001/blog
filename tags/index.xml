@@ -5,34 +5,6 @@
     <link>https://nervous-jepsen-6c5d5f.netlify.app/tags/</link>
     <description>Recent content in Tags on Easler&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>ja-ja</language>
-    <lastBuildDate>Thu, 31 May 2018 07:11:59 +0700</lastBuildDate><atom:link href="https://nervous-jepsen-6c5d5f.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>AMP</title>
-      <link>https://nervous-jepsen-6c5d5f.netlify.app/tags/amp/</link>
-      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
-      
-      <guid>https://nervous-jepsen-6c5d5f.netlify.app/tags/amp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>theme</title>
-      <link>https://nervous-jepsen-6c5d5f.netlify.app/tags/theme/</link>
-      <pubDate>Thu, 31 May 2018 07:11:59 +0700</pubDate>
-      
-      <guid>https://nervous-jepsen-6c5d5f.netlify.app/tags/theme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://nervous-jepsen-6c5d5f.netlify.app/tags/hugo/</link>
-      <pubDate>Mon, 28 May 2018 13:22:14 +0700</pubDate>
-      
-      <guid>https://nervous-jepsen-6c5d5f.netlify.app/tags/hugo/</guid>
-      <description></description>
-    </item>
-    
+    <language>ja-ja</language><atom:link href="https://nervous-jepsen-6c5d5f.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
