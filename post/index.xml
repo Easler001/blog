@@ -22,8 +22,8 @@
       <pubDate>Sat, 07 Aug 2021 14:09:24 +0700</pubDate>
       
       <guid>https://nervous-jepsen-6c5d5f.netlify.app/post/seo/</guid>
-      <description>&lt;p&gt;#　初めに
-SEOに強い入力フォームは、簡単に言えば検索エンジンのクローラーが理解しやすいようなHTML構造にしなければならない。&lt;/p&gt;
+      <description>&lt;p&gt;#　初めに&lt;/p&gt;
+&lt;p&gt;SEOに強い入力フォームは、簡単に言えば検索エンジンのクローラーが理解しやすいようなHTML構造にしなければならない。&lt;/p&gt;
 &lt;h2 id=&#34;用語補足&#34;&gt;【用語補足】&lt;/h2&gt;
 &lt;p&gt;SEO…(Search Engine Optimization：検索エンジン最適化)検索エンジンを利用したマーケティング。Googleなどの検索結果で自社のページが表示されることにより、サービスや商品を知らないユーザーがページを見て利用、購入等を考える機会を作り出す。&lt;/p&gt;
 &lt;p&gt;クローラー…インターネット上に存在するWebサイトや画像などのあらゆる情報を取得し、自動的に検索データベースを作成する巡回プログラム。google等の検索サイトを提供している企業が運営。&lt;/p&gt;
@@ -65,7 +65,7 @@ HUGOの場合、ローカル環境(個人のコンピューター内に構築さ
 &lt;p&gt;⑤ブラウザ上で表示させる。&lt;/p&gt;
 &lt;p&gt;このままではブラウザ上では表示されないのでその設定をする。&lt;/p&gt;
 &lt;p&gt;$hugo server -D ←ローカルにて表示させる。&lt;/p&gt;
-&lt;p&gt;〜記事の作成と投稿〜&lt;/p&gt;
+&lt;h2 id=&#34;記事の作成と投稿&#34;&gt;〜記事の作成と投稿〜&lt;/h2&gt;
 &lt;p&gt;①記事のページを作る。&lt;/p&gt;
 &lt;p&gt;以下コマンド&lt;/p&gt;
 &lt;p&gt;$cd 【作りたいブログタイトル】&lt;/p&gt;
